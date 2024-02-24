@@ -13,18 +13,19 @@ int main() {
     int a = 0;
     int b = 0;
     cin >> record;
-    for(int i = 0; i < record.length()-1; i+=2){
-        if(record[i] == 'A') {
-            a +=  record[i+1] - 48;
+    cout << record[record.length()-2] << endl;
+    // for(int i = 0; i < record.length()-1; i+=2){
+    //     if(record[i] == 'A') {
+    //         a +=  record[i+1] - 48;
             
-        } else {
-            b += record[i+1] - 48;
-        }
-    }
-    if(a>b){
-        cout <<'A'<<endl;
-    } else {
-        cout << 'B' << endl;
-    }
+    //     } else {
+    //         b += record[i+1] - 48;
+    //     }
+    // }
+    // if(a>b){
+    //     cout <<'A'<<endl;
+    // } else {
+    //     cout << 'B' << endl;
+    // }
     return 0;
 }
