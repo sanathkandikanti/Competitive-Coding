@@ -1,8 +1,6 @@
 *.class
-*.bin
 .DS_*
 *.dSYM
 a.out
 .vscode
 .cph
-bin
